@@ -14,8 +14,8 @@ st.set_page_config(layout="wide")
 st.title("🗺️ Dealer Coverage Map – Uttar Pradesh")
 
 # --- Hardcoded file paths ---
-DEALER_EXCEL_PATH = "dealers.xlsx"
-SHAPEFILE_PATH = "up_pincodes.geojson"  # Or .geojson if you have that
+DEALER_EXCEL_PATH = "./dealers.xlsx"
+SHAPEFILE_PATH = "./up_pincodes.geojson"  # Or .geojson if you have that
 
 # --- Load data ---
 try:

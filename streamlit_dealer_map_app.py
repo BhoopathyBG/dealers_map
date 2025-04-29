@@ -11,7 +11,7 @@ from load_dealers_map_1 import (
 
 # Set page layout
 st.set_page_config(layout="wide")
-st.title("🗺️ Dealer Coverage Map – Uttar Pradesh")
+st.title("🗺️ Dealer Coverage Map – UP")
 
 # --- Hardcoded file paths ---
 DEALER_EXCEL_PATH = "./dealers.xlsx"
